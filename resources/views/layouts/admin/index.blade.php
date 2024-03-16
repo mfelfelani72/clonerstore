@@ -391,7 +391,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('adminstrator/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('administrator/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -1175,7 +1175,7 @@
                                                         class="btn btn-rounded  fs-18 font-w500">Try Free Now</a>
                                                 </div>
                                                 <div class="col-xl-5 col-sm-6">
-                                                    <img src="images/chart.png" alt="" class="sd-shape">
+                                                    <img src="{{ asset('administrator/images/chart.png') }}" alt="" class="sd-shape">
                                                 </div>
                                             </div>
                                         </div>
@@ -1674,7 +1674,7 @@
                                                                 class="d-flex align-items-center justify-content-between">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="big-wind">
-                                                                        <img src="images/big-wind.png"
+                                                                        <img src="{{ asset('administrator/images/big-wind.png') }}"
                                                                             alt="">
                                                                     </span>
                                                                     <div class="ms-3">
@@ -1735,7 +1735,7 @@
                                                                 class="d-flex align-items-center justify-content-between">
                                                                 <div class="d-flex align-items-center">
                                                                     <span class="big-wind">
-                                                                        <img src="images/circle-hunt.png"
+                                                                        <img src="{{ asset('administrator/images/circle-hunt.png') }}"
                                                                             alt="">
                                                                     </span>
                                                                     <div class="ms-3">
@@ -1886,7 +1886,7 @@
                                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                                     <div class="msg d-flex align-items-center w-100">
                                                         <div class="image-box active">
-                                                            <img src="{{ asset('administartor/images/profile/small/pic4.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic4.jpg') }}" alt="">
                                                         </div>
                                                         <div class="ms-3 w-100">
                                                             <h4 class="fs-18 font-w600">Ruben Press</h4>
