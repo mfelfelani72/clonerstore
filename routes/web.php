@@ -19,4 +19,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/admin/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])
+->name('dashboard');
+
+Route::get('/{locale}', function ($locale) {
+
+    session()->put('locale', $locale);
+
+    return redirect()->back();
+})->name('lang');
+
