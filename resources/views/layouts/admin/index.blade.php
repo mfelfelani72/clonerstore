@@ -1880,6 +1880,7 @@
                                                                 href="javascript:void(0)">Delete</a>
                                                             <a class="dropdown-item"
                                                                 href="javascript:void(0)">Edit</a>
+                                                                href="javascript:void(0)">Edit</a>
                                                         </div>
                                                     </div>
                                                 </div>
