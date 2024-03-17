@@ -12,11 +12,12 @@
 
 
     <link href="{{ asset('administrator/css/jquery-nice-select/nice-select.css') }}" rel="stylesheet">
-    <link href="{{ asset('administrator/css/owl-carousel/owl.carousel.css') }} rel="stylesheet">
+    <link href="{{ asset('administrator/css/owlcarousel/owl.carousel.min.css')  }}" rel="stylesheet">
+    <link href="{{ asset('administrator/css/owlcarousel/owl.theme.default.min.css')  }}" rel="stylesheet">
     <link href="{{ asset('administrator/css/nouislider/nouislider.min.css') }} rel="stylesheet"">
 
     <!-- Style css -->
-    <link href="{{ asset('administrator/css/style-admin.css') }}" rel="stylesheet">
+    <link href="{{ asset('administrator/css/style.css') }}" rel="stylesheet">
 
 
 </head>
@@ -922,7 +923,8 @@
                             <li class="nav-item dropdown  header-profile">
                                 <a class="nav-link" href="javascript:void(0);" role="button"
                                     data-bs-toggle="dropdown">
-                                    <img src="{{ asset('administrator/images/user.jpg') }}" width="56" alt="">
+                                    <img src="{{ asset('administrator/images/user.jpg') }}" width="56"
+                                        alt="">
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <a href="app-profile.html" class="dropdown-item ai-icon">
@@ -1175,7 +1177,8 @@
                                                         class="btn btn-rounded  fs-18 font-w500">Try Free Now</a>
                                                 </div>
                                                 <div class="col-xl-5 col-sm-6">
-                                                    <img src="{{ asset('administrator/images/chart.png') }}" alt="" class="sd-shape">
+                                                    <img src="{{ asset('administrator/images/chart.png') }}"
+                                                        alt="" class="sd-shape">
                                                 </div>
                                             </div>
                                         </div>
@@ -1364,7 +1367,8 @@
                                                 <div class="d-flex justify-content-between recent-emails">
                                                     <div class="d-flex">
                                                         <div class="profile-k">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic6.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic6.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3">
                                                             <h4 class="fs-18 font-w500">Fillow Final UseCase Diagram
@@ -1414,7 +1418,8 @@
                                                 <div class="d-flex justify-content-between recent-emails">
                                                     <div class="d-flex">
                                                         <div class="profile-k">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic8.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic8.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3">
                                                             <h4 class="fs-18 font-w500">How to improve project
@@ -1561,6 +1566,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="col-xl-12 col-lg-12">
                                         <div class="row">
                                             <div class="col-xl-6 col-xxl-12 col-sm-6">
@@ -1817,7 +1823,8 @@
                                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                                     <div class="msg d-flex align-items-center w-100">
                                                         <div class="image-box active">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic6.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic6.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3 w-100 ">
                                                             <h4 class="fs-18 font-w600">Maren Rosser</h4>
@@ -1852,7 +1859,8 @@
                                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                                     <div class="msg d-flex align-items-center w-100">
                                                         <div class="image-box">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic7.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic7.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3 w-100">
                                                             <h4 class="fs-18 font-w600">Kaiya Bergson</h4>
@@ -1880,14 +1888,15 @@
                                                                 href="javascript:void(0)">Delete</a>
                                                             <a class="dropdown-item"
                                                                 href="javascript:void(0)">Edit</a>
-                                                                href="javascript:void(0)">Edit</a>
+                                                            href="javascript:void(0)">Edit</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                                     <div class="msg d-flex align-items-center w-100">
                                                         <div class="image-box active">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic4.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic4.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3 w-100">
                                                             <h4 class="fs-18 font-w600">Ruben Press</h4>
@@ -1922,7 +1931,8 @@
                                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                                     <div class="msg d-flex align-items-center w-100">
                                                         <div class="image-box active">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic3.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic3.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3 w-100">
                                                             <h4 class="fs-18 font-w600">Cristofer Torff</h4>
@@ -1957,7 +1967,8 @@
                                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                                     <div class="msg d-flex align-items-center w-100">
                                                         <div class="image-box active">
-                                                            <img src="{{ asset('administrator/images/profile/small/pic5.jpg') }}" alt="">
+                                                            <img src="{{ asset('administrator/images/profile/small/pic5.jpg') }}"
+                                                                alt="">
                                                         </div>
                                                         <div class="ms-3 w-100">
                                                             <h4 class="fs-18 font-w600">Ann Rosser</h4>
@@ -2037,6 +2048,7 @@
         Scripts
     ***********************************-->
     <!-- Required vendors -->
+
     <script src="{{ asset('administrator/js/global/global.min.js') }}"></script>
     <script src="{{ asset('administrator/js/chart.js/Chart.bundle.min.js') }}"></script>
     <script src="{{ asset('administrator/js/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
@@ -2050,9 +2062,7 @@
     <script src="{{ asset('administrator/js/peity/jquery.peity.min.js') }}"></script>
     <!-- Dashboard 1 -->
     <script src="{{ asset('administrator/js/dashboard/dashboard-1.js') }}"></script>
-
-    <script src="{{ asset('administrator/js/owl-carousel/owl.carousel.js') }}"></script>
-
+    <script src="{{ asset('administrator/js/owlcarousel/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('administrator/js/custom.min.js') }}"></script>
     <script src="{{ asset('administrator/js/dlabnav-init.js') }}"></script>
     <script src="{{ asset('administrator/js/demo.js') }}"></script>
