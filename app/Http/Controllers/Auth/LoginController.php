@@ -20,6 +20,12 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
+    protected function showLoginForm()
+    {
+        $address = 'auth/login';
+        return view('auth.base-index', compact('address'));
+    }
+
     /**
      * Where to redirect users after login.
      *
